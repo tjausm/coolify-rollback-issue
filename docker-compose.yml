@@ -1,0 +1,8 @@
+services:
+  app1:
+    build: .
+    container_name: coolify-test-1
+
+  app2:
+    build: .
+    container_name: coolify-test-2
